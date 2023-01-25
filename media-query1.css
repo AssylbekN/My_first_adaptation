@@ -1,0 +1,176 @@
+@media only screen and (max-width:414px){
+body{margin: 0 auto;
+padding: 20px;
+}
+
+.menu{
+    display: none;
+}
+.menu-btn-m { 
+    display: flex; 
+    position: absolute; 
+    background: transparent; 
+    z-index: 2; 
+    border: none; 
+    cursor: pointer; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    top: 10px; 
+    left: 10px; 
+    width: 30px; 
+    height: 30px; 
+}
+.menu-mobile{
+    position: fixed; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: space-evenly; 
+        top: 0; 
+        left: -100%; 
+        width: 70%; 
+        height: 100%; 
+        background: #C6F572; 
+        padding: 20px; 
+        box-sizing: border-box; 
+        transition: all 0.3s ease; 
+        z-index: 1; 
+}
+.menu-mobile.open { 
+    left: 0; 
+} 
+
+.menu-mobile p { 
+    text-decoration: none; 
+    color: white; 
+    font-size: 20px; 
+} 
+.home-images{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+#negr{
+    width: 60%;
+    height: 30%;
+}
+#kofe{
+    width: 60%;
+    height: 30%;
+}
+.menu-title{
+    font-size: 42px;
+font-weight: 200px;
+}
+.menu-title-text {
+    font-size: 12px;
+    width: 100%;
+height: 20%;  
+}
+
+.growing h2{
+width: 100%;
+font-size: 25px;
+width: 50%;
+}
+.two-debils{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.instant{
+    margin-top: 30px;
+}
+.chernaya{
+    margin-top: 40px;
+}
+.stefan img{
+    width:auto;
+    height: 100px;
+    margin-top: 25px;
+}
+.instant h2{
+font-size: 25px;
+text-align: center;
+width:200px;
+}
+.instant p{
+    font-size: 15px;
+text-align: center;
+
+}
+.pricing {
+height: 400px;
+}
+.pricing h2{
+    font-size: 35px; 
+}
+.pricing p{
+    width: 90%;
+    text-align: center;
+
+}
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.no-tiers h2{
+    font-size: 25px; 
+}
+.black-container #zagolovok {
+    font-size: 25px; 
+    width: 100%;  
+    height: auto;  
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tri-kvadrata{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+.black-container{
+    height:auto;
+}
+.effortlessly{
+    margin-top: 30px;
+    height: auto;
+}
+.black-container-2{
+    display: flex;
+    height: auto;
+}
+.trava {
+ display: none;
+}
+.effortlessly{
+    width: 100%;
+    height: auto;
+    margin: 50px;
+}
+.effortlessly-2{
+    width: 100%;
+    height: auto;
+    margin-left: 1px;
+}
+.effortlessly-2 h2{
+    margin-left: 5px;
+}
+.inp{
+    width: 80%;
+}
+.effortlessly p {
+width: 250px; 
+}
+.hr1{
+    width:90%
+}
+}
